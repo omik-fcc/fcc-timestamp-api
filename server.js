@@ -29,6 +29,13 @@ app.get("/api/hello", function (req, res) {
 
 // heavy random testing ahead
 
+app.get("/api/timestamp/", function (req,res) {
+  
+  var ts = Math.round((new Date()).getTime() / 1000);
+  res.send(unixTimestamp(ts));
+});
+
+
 app.get("/api/timestamp/:time", function (req, res) {
   // do sumthin
   var daTime = unixTimestamp(req.params.time);
