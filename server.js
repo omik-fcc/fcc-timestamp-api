@@ -44,7 +44,7 @@ function unixTimestamp(t) {
   };
 
   var dateCheck = /^\d{1,4}-\d{2}-\d{2}/;
-  var isNumberCheck = /^\d{1,13}$/;
+  var isNumberCheck = /^\d{1,12}$/;
 
   if (dateCheck.test(t)) {
     response.unix = Date.parse(t);
