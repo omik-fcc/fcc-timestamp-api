@@ -13,7 +13,7 @@ e.g. `{"unix": 1479663089000 ,"utc": "Sun, 20 Nov 2016 17:31:29 GMT"}`.
 
 #### Example usage:
 * https://puzzled-anaconda.glitch.me/api/timestamp/2015-12-15
-* https://puzzled-anaconda.glitch.me/api/timestamp/1450137600000
+* https://puzzled-anaconda.glitch.me/api/timestamp/1541884916
 
 #### Example output:
 * { "unix": 1450137600, "natural": "December 15, 2015" }
